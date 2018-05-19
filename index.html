@@ -1,1 +1,44 @@
-<h1> hallo </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Halaman Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <style type="text/css">
+            @import url(pemanis.css);
+            table {
+                 background-color:black;
+                    
+            }
+        </style> 
+</head>
+<body>
+	  <div class="column">
+	  <table class="login" align="center" border="0">
+		<form action="login_proses.php" method="post">
+                        <tr>
+				<td colspan="2" align="center"> &nbsp </td> 
+			</tr>
+			<tr>
+				<td colspan="2" align="center"> SILAHKAN LOGIN</td> 
+			</tr>
+			<tr> 
+				<td colspan="2" align="center"><input type="text" name="nama" placeholder="Nama Pengguna" required /> </td>
+			</tr> 
+			<tr> 
+				<td colspan="2" align="center"><input type="password" name="password" placeholder="Kata Sandi" required /></td>
+			</tr> 
+			<tr>
+				<td align="center"> <input type="submit" class="button" value="MASUK"/> </td> 
+				<td align="center"> <input type="reset" class="button" value="RESET"/> </td> 
+			</tr> 
+                        <tr>
+				<td colspan="2" align="center"> &nbsp </td> 
+			</tr>
+		</form>
+	  </table> 
+	  </div>
+	  </br>
+
+</body>
+</html>
