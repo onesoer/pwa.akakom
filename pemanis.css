@@ -1,0 +1,68 @@
+                html{
+			background: url(logo.png);
+			background-size: 300px 300px;
+			background-repeat : repeat;
+			font-family: "Lucida Console";
+		}
+		
+		body {
+                        margin : 5%;
+		}
+		
+		.header {
+			background-color: #f1f1f1;
+			padding: 10px;
+			text-align: center;
+                        border-radius : 35px;
+		}
+		
+		.footer {
+			background-color: #f1f1f1;
+			padding: 10px;
+			text-align: center;
+		}
+		.column {
+			float: center;
+			padding: 10px;
+			height: 200px;
+		}
+		
+		.login {
+			width: 50%;
+			align: center;
+			background-color: white;
+			border-style: groove;
+			border-radius: 15px
+		}
+		
+		td, th  {
+			width :25%;
+			align : center;
+		}
+		
+		input {
+			width: 80%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border-radius: 7px;
+		} 
+		
+		.button {
+			background-color: #ccffff; 
+			border: 2px solid white;
+			color: black;
+			padding: 10px 15px;
+			text-align: center;
+			display: inline-block;
+			font-size: 14px;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+			border-style: outset;
+		}
+		
+		@media (max-width: 600px) {
+			.column {
+				width: 80%;
+				text-color: green;
+			}
+		}
